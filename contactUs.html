@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/4a7142628e.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <section id="landing--contactUs" class="green--gradient--background pbottom-200">
+        
+        <div class="info">
+            <div class="info__container">
+                <ul class="support">
+                    <li><a href="/">Vide Production Company</a></li>
+                    <li><a href="./contactUs.html">(886) 940-4336</a></li>
+                    <li><a href="./contactUs.html">Customer Support</a></li>
+                    <li><a href="./contactUs.html">Contact</a></li>
+                </ul>
+                <ul class="info--nav">
+                    <li><a  href="https://www.vimeo.com" target="_blank">Samples</a></li>
+                    <li><a href="./pricing.html">Pricing</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="./order.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                </ul>
+            </div>    
+        </div>
+        <nav>
+            <div class="logo">Vanille Video</div>
+            <ul class="nav--list align--items--center">
+                <li><a href="/">Overview</a></li>
+                <li><a href="./business.html">Video Production for Business</a></li>
+                <li><a href="./wedding.html">Wedding Videography</a></li>
+            </ul>
+            <ul class="abouusandbuttonlist align--items--center">
+                <li><a href="./about.html">About Us</a></li>
+                <li>
+                    <a href="./order">
+                        <button>
+                            <i class="fa-solid fa-file-invoice"></i>
+                            <span> Estimate </span> 
+                        </button>
+                    </a>    
+                </li>
+            </ul>
+            <button class="btn__menu" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </button>   
+            <div class="menu__backdrop">
+                <ul class="menu__links" >
+                    <li class="menu__list">
+                        <a href="./" class=" " onclick="toggleMenu()">Overview</a>
+                    </li>
+                    <li class="menu__list">
+                        <a href="./business.html" class="" onclick="toggleMenu()">Video Production for Business</a>
+                    </li>
+                    <li class="menu__list">
+                        <a class="/wedding.html" onclick="toggleMenu()">Wedding Videography</a>
+                    </li>
+                    <li class="menu__list">
+                        <a href="./about">About Us</a>
+                    </li>
+                    <li class="menu__list">
+                        <a href="">Estimate</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <header>
+            <div class="container">
+                <div class="row header__row align--items--center">
+                    <div class="header__info half--col half--col992 textaligncenter992px">
+                        <h1 class="header__title mbottom-16">Contact Us</h1>
+                        <p class="white font-weight-light">
+                            Get in touch with our professional team of videographers
+                        </p>                        
+                    </div>
+                </div>
+            </div>
+        </header>  
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="contactus--card--container">
+                    <div class="characteristic--card align--items--center minheight--270px offwhite--gradient--background">
+                        <div class="characteristic--description contactUs--card--description">
+                            <h2 class="mbottom-24 text-dark">Based in Chicago, Illinois</h2>
+                            <p>
+                                We service the surrounding suburbs — travel pricing will be calculated for regions beyond Chicago. 
+                                <a href="./pricing.html"><span class="link-underline">Visit our Pricing Page.</span> </a>
+                            </p>
+                            <h5 class="mtop-16px mbottom-16 df align--items--center">
+                                <i class="fa-solid fa-phone fourtypxicon mbottom-0 mright--24px"></i>
+                                <a href="tel:(633)000-1291"><span class="link-underline">(123) 456-4335</span>   Press 1</a>
+                            </h5>
+                        </div>    
+                    </div>
+                    <div class="characteristic--card align--items--center minheight--270px green--gradient--background">
+                        <div class="characteristic--description contactUs--card--description">
+                            <h2 class="mbottom-24 offwhite">Available Nationwide</h2>
+                            <p class="offwhite">
+                                Our videographers travel across the nation — guaranteeing premium service for customers. 
+                                With our world-class logistics and project tracking, Vanilla Video can handle it with ease.
+                            </p>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="faq">
+        <div class="container">
+            <div class="row">
+                <div class="services--header">
+                </div>
+                <div id="FAQ-land" class="FAQ--container">
+                    <div class="FAQ--column1 half--col">
+                        <h3>Send an email message</h3>
+                        <p>
+                            Provide details so we can assist you. 
+                            Phone is the fastest method to gather project specifics and get you pricing. Our goal is to make a recommendation within a few minutes of talking. 
+                            If you prefer email, start by using the form below. 
+                            We usually respond within hours.
+                        </p>
+                        <form id="contact__form" method="POST" data-netlify="true"">
+                            <div class="form__item">
+                                <input type="text" class="input" name="user_name" required placeholder="your name"></input>
+                            </div>
+                            <div class="form__item">            
+                                <input type="email" class="input" name="user_email" required placeholder="your email"></input>
+                            </div>
+                            <div class="form__item">
+                                <textarea type="text" class="input textarea" name="message" placeholder="your message"></textarea>
+                            </div>
+                            <button class="contact__button click">Send It My Way</button>
+                        </form>
+                    </div>
+                    <div class="FAQ--column2 fortyone--col mleft--auto">
+                        <div class="mbottom-24 df align--items--center">
+                            <i class="fa-solid fa-envelopes-bulk fiftyfourpxicon green mbottom-0 mright--24px"></i>
+                            <span class="badge badge-pill badge-soft-green badge-large border-section-secondary">Chicago Mailing Address</span>
+                        </div>
+                        <h3>Vanilla Video LLC</h3>
+                        <h4>7311 Seminole Court</h4>
+                        <h4>Darien, Illinois 60561</h4>
+                        <hr>
+                        <div>
+                            <p class="mbottom-16">
+                                Give us enough information to quote you so we can verify availability and provide an 
+                                accurate quote in our response.
+                            </p>
+                            <ul class="pleft--40px">
+                                <li class="styled--list">Starting time + Duration of event or production</li>
+                                <li class="styled--list">Describe editing needs and video deliverables</li>
+                                <li class="styled--list">Location information / addresses appreciated</li>
+                                <li class="styled--list">Including your phone number makes it faster</li>
+                                <li class="styled--list">Providing any budget restraints helps too</li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div class="mtop-16px mbottom-16 df align--items--center">
+                            <i class="fa-solid fa-phone-flip fiftyfourpxicon blue mbottom-0 mright--24px"></i>
+                            <span class="badge badge-pill badge-soft-dark-blue badge-large border-section-secondary">Call Us, Maybe?</span>
+                        </div>
+                        <a href="tel:(633)000-1291"><h2 class="font-weight-light mbottom-16"><span class="blue">(123) 456-4335</span>  & Press 1</h2></a>
+                        <strong>Available Daily from 8 AM to !! PM (CST)</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contactourteam">
+        <div class="row df justify--content--center">
+            <div class="twothird--col">
+                <div class="consultation--body">
+                    <h3 class="">Contacting us is cool, but you can <strong> Get an Estimate</strong> online.</h3>
+                    <div class="consultation--more">
+                        <a href="./pricing.html">
+                            <button class="blue--background white">
+                                <span class="badge badge-pill badge-soft-green badge-floating border-section-secondary">Like a Pro</span>
+                                Build an Estimate
+                            </button>
+                        </a>    
+                        <a href="tel:(633)000-1291"><span class="blue">Texting (633)000-1291 works too</span></a>
+                    </div>
+                </div>
+            </div>  
+        </div> 
+    </section>
+    <section id="production--services" class="offwhite--gradient--background">
+        <div class="container">
+            <div class="row"> 
+                <div class="customercare fiftyeight--col ptop--80px">
+                    <h6 class="text--muted">OUR PROMISE TO CUSTOMERS SINCE 2011</h6>
+                    <h2>Dedicated to Excellence in Customer Service</h2>
+                </div>
+                <div class="row--onevthirdcolgrid px24px">
+                    <div class="customercare onethird--col">
+                        <p>
+                            "Our aim was to build a video production service that we ourselves would use, and allow our customers to order exactly what they wanted without an artistic spin."
+                        </p>    
+                        <h5 class="text--muted mtop-16px">Corey Olson, Co-Founder / CEO</h5>
+                        <hr>
+                        <p>
+                            "We built Vanilla Video from nothing, now serving thousands of customers, by building trust with our customers over many years."
+                        </p>
+                        <h5 class="text--muted mtop-16px">Frank Romano, Co-Founder</h5>
+                    </div>
+                    <div class="half--col half--col992 mleft--auto">
+                        <p class="pbottom--16px">
+                            We built Vanilla Video for customers — not our portfolio. For nearly a decade, our team has consistently received praise from around the world for our innovative and easy-to-use services.
+                        </p>
+                        <p class="dark--para small ">
+                            We promise, to our customers, to:
+                        </p>
+                        <ul class="pleft--40px pbottom--16px">
+                            <li class="styled--list">Starting time + Duration of event or production</li>
+                            <li class="styled--list">Describe editing needs and video deliverables</li>
+                            <li class="styled--list">Location information / addresses appreciated</li>
+                            <li class="styled--list">Including your phone number makes it faster</li>
+                            <li class="styled--list">Providing any budget restraints helps too</li>
+                        </ul>
+                        <p>
+                            Thank you, to the thousands of customers who chose Vanilla Video for their wedding, business, event or general videography needs.
+                        </p>
+                    </div> 
+                </div>
+                <div class="features--container mtop-96">
+                    <div class="feature onequater--col">
+                        <figure class="icon--container danger">
+                            <i class="fa-solid fa-heart-pulse"></i>
+                        </figure>
+                        <h5 class="danger">3,500+</h5>
+                        <p>
+                            Happy Customers
+                        </p>
+                    </div>
+                    <div class="feature onequater--col">
+                        <figure class="icon--container skyblue">
+                            <i class="fa-solid fa-layer-group"></i>
+                        </figure>
+                        <h5 class="skyblue">4,000+</h5>
+                        <p>
+                            Projects Completed
+                        </p>
+                    </div>
+                    <div class="feature onequater--col">
+                        <figure class="icon--container warning">
+                            <i class="fa-solid fa-file-video"></i>
+                        </figure>
+                        <h5 class="warning">23,000+</h5>
+                        <p>
+                            Rendered Videos
+                        </p>
+                    </div>
+                    <div class="feature onequater--col">
+                        <figure class="icon--container blue">
+                            <i class="fa-solid fa-clock"></i>
+                        </figure>
+                        <h5 class="blue">24/7</h5>
+                        <p>
+                            Customer Support
+                        </p>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </section>   
+    <footer>
+        <div class="footer--shape--off">
+            <div class="footer--background green--gradient--background ">
+                <div class="container z-index-10">
+                    <div class="row footer--row">
+                        <div class="footer--columns">
+                            <div class="footer--cl1 onethird--col">
+                                <h1 class="logo">Vanille Video</h1>
+                                <p class="small">
+                                    Vanilla Video is a video production company based in the Chicago area. 
+                                    We offer <strong class="white">Premium</strong> video production services and video editing to businesses, musicians, weddings and governments — plus so much more. 
+                                    <a href="./contact" class="white">Contact us</a>today.
+                                </p>
+                            </div>
+                            <div class="footer--cl2 onesixth--col onethird--col992 half--col768">
+                                <div>
+                                    <h6>Vanille Video</h6>
+                                    <ul>
+                                        <li><a href="./about.html">About Us</a></li>
+                                        <li>Careers</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="onesixth--col onethird--col992 half--col768">
+                                <div class="footer--cl2">
+                                    <h6>customers</h6>
+                                    <ul>
+                                        <li><a href="#FAQ-land">FAQs</a></li>
+                                        <li><a href="./pricing.html">Pricing</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="onesixth--col onethird--col992 half--col768">
+                                <div class="footer--cl2">
+                                    <h6>Extras</h6>
+                                    <ul>
+                                        <li>Articles</li>
+                                        <li>specifications</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer--bottom--row">
+                            <div class="copyright--col">
+                                &copy 2022 Vanilla Video                            
+                                &nbsp;·&nbsp;
+                                <a href="">Terms of Service</a>
+                                &nbsp;·&nbsp;
+                                <a href="">Privacy Policy</a>
+                                &nbsp;·&nbsp;
+                                <a href="">Cookies</a>
+                            </div>
+                            <p>
+                                Generated in 0.0009 Seconds — 672.27 KiB</p>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
